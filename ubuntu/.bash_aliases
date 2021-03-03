@@ -11,6 +11,7 @@ function configure-git-personal() {
 
 # Git globals
 git config --global core.editor "vim"
+git config --global alias.tree 'log --graph --pretty=oneline --abbrev-commit --all'
 
 # Enable PowerLine
 eval "$(oh-my-posh --init --shell bash --config ~/.poshthemes/powerline.omp.json)" 
